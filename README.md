@@ -32,7 +32,7 @@ echo ".env" >> .gitignore
 4. Load .env globally
 Add this at the top of playwright.config.ts:
 import 'dotenv/config';
-✅ This makes process.env available in all tests and page objects.
+This makes process.env available in all tests and page objects.
 You don’t need to import dotenv in page objects or test files.
 5. Run tests
 Run all tests:
