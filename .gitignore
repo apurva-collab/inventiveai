@@ -39,6 +39,6 @@ Thumbs.db
 *.bak
 *.orig
 
-
-
+# Cookies and session storage files 
+auth.json
 
